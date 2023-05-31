@@ -3,18 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Front-end and Vue Developer">
-    <meta name="keywords" content="resume,cv,Rizwan Nasir">
-    <meta name="author" content="Rizwan Nasir">
+    <title>Rizwan Nasir — Resume</title>
     <!-- <meta name="robots" content="noindex"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
+    <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous">
     <link href="./build.css" rel="stylesheet">
-    <title>Rizwan Nasir — Resume</title>
+    <script src="./meta.js" defer></script>
+    <link rel="shortcut icon" href="./static/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="./static/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./static/favicon.svg" />
+
+    <meta name="description" content="Rizwan Nasir — a product designer working on web & mobile
+          apps with a focus on fast, scalable, robust, S.O.L.I.D Principle, and accessibility" />
+    <meta name="keywords" content="resume,cv,Rizwan Nasir">
+    <meta name="author" content="Rizwan Nasir">
+
+    <meta property="og:image" class="og-image" content="static/preview.png" />
+    <meta property="og:image:alt" content="Preview for the site" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1880" />
+    <meta property="og:image:height" content="1077" />
+
+    <meta property="og:title" content="Rizwan Nasir — Resume" />
+    <meta property="og:site_name" content="Rizwan Nasir — Resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rizwannasir.link" />
+    <meta property="og:description" content="Rizwan Nasir — a product designer working on web & mobile
+          apps with a focus on fast, scalable, robust, S.O.L.I.D Principle, and accessibility" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Rizwan Nasir — a product designer working on web & mobile
+          apps with a focus on fast, scalable, robust, S.O.L.I.D Principle, and accessibility" />
+    <meta name="twitter:title" content="Rizwan Nasir — Resume" />
+    <meta name="twitter:site" content="@rizwannaasir" />
+    <meta name="twitter:creator" content="@rizwannaasir" />
+    <meta name="twitter:image" class="og-image" content="static/preview.png" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
+
 </head>
 
-<body>
+<body class="relative" id="print">
 <main class="font-firago hyphens-manual">
 
     <!-- Page -->
@@ -152,47 +186,7 @@
                     </div>
                 </section>
 
-                <section class="mt-8 first:mt-0">
 
-                    <!-- To keep in the same column -->
-                    <div class="break-inside-avoid">
-
-                        <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-                            PROJECTS
-                        </h2>
-
-                        <section class="mb-4.5 break-inside-avoid">
-                            <header>
-                                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                                    <a href="https://qonnected.nl" class="group">
-                                        Qonnected
-                                        <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
-                                    </a>
-                                </h3>
-                                <ul>
-                                    <li class="mt-2.1 text-md text-gray-700 leading-normal"><span
-                                            class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                                        Developed a reseller portal and public postal code checker using Laravel,
-                                        Symfony,
-                                        and Vue.js.
-                                    </li>
-                                    <li class="mt-2.1 text-md text-gray-700 leading-normal"><span
-                                            class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                                        Improved overall user experience and reduced response time.
-                                    </li>
-                                    <li class="mt-2.1 text-md text-gray-700 leading-normal"><span
-                                            class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                                        Implemented secure authentication and authorization mechanisms for enhanced data
-                                        privacy.
-
-                                    </li>
-
-                                </ul>
-                            </header>
-                        </section>
-                    </div>
-
-                </section>
 
                 <section class="mt-8 first:mt-0">
 
@@ -209,7 +203,7 @@
                                     TypeScript
                                 </h3>
                             </header>
-                            <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                            <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
                                 I have extensive experience using TypeScript to develop robust and scalable web
                                 applications. With its static typing, modular structure, and extensive tooling support,
                                 TypeScript has been instrumental in delivering high-quality and efficient code.
@@ -244,7 +238,7 @@
                                 PHP
                             </h3>
                         </header>
-                        <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                        <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
 
                             With over
                             <script>document.write(new Date().getFullYear() - 2020);</script>
@@ -310,7 +304,7 @@
                         <section class="mb-4.5 break-inside-avoid">
                             <ul class="list-inside pr-7">
                                 <li class="mt-1.5 leading-normal text-gray-700 text-md">
-                                    <a href="//webpraktikos.com" class="group">
+                                    <a href="//rizwannasir.link" class="group">
                                         rizwannasir.link
                                         <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
                                     </a>
@@ -343,6 +337,47 @@
 
                 </section>
 
+                <section class="mt-8 first:mt-0">
+
+                    <!-- To keep in the same column -->
+                    <div class="break-inside-avoid">
+
+                        <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+                            PROJECTS
+                        </h2>
+
+                        <section class="mb-4.5 break-inside-avoid">
+                            <header>
+                                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                                    <a href="https://qonnected.nl" class="group">
+                                        Qonnected
+                                        <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                                    </a>
+                                </h3>
+                                <ul>
+                                    <li class="mt-2.1 text-md text-gray-700 leading-normal"><span
+                                            class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                                        Developed a reseller portal and public postal code checker using Laravel,
+                                        Symfony,
+                                        and Vue.js.
+                                    </li>
+                                    <li class="mt-2.1 text-md text-gray-700 leading-normal"><span
+                                            class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                                        Improved overall user experience and reduced response time.
+                                    </li>
+                                    <li class="mt-2.1 text-md text-gray-700 leading-normal"><span
+                                            class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
+                                        Implemented secure authentication and authorization mechanisms for enhanced data
+                                        privacy.
+
+                                    </li>
+
+                                </ul>
+                            </header>
+                        </section>
+                    </div>
+
+                </section>
             </div>
             <!-- end Column -->
 
