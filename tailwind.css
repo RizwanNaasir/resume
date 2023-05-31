@@ -5,10 +5,7 @@
 
 @screen print {
   @page {
-    margin-top: 0in;
-    margin-bottom: 0in;
-    margin-left: 0in;
-    margin-right: 0in;
+    margin: 0 0 0;
   }
 
   body {
@@ -79,7 +76,13 @@ html {
 
 body .icon-parent::before {
   content: "A";
-  width: 0px;
+  width: 0;
   visibility: hidden;
   display: inline-block;
+}
+
+@layer components {
+  .badge {
+    @apply px-2.5 mr-1 mb-1.6 text-base text-gray-750 border-gray-550 rounded-xl border-2 bg-gray-200;
+  }
 }
