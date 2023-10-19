@@ -58,7 +58,7 @@ Tailwind CSS is a highly customizable, low-level CSS framework that gives you al
 Custom CSS
 ---------
 
-Code from `tailwind.config.js` and `tailwind.css` transpiles to `docs/style.css`.
+Code from `tailwind.config.js.old` and `tailwind.css` transpiles to `docs/style.css`.
 
 Here is the default tailwind config: [defaultConfig.stub.js](https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js), and here’s the additional information from the Tailwind documentation: [theme](https://tailwindcss.com/docs/theme/#app).
 
@@ -76,7 +76,8 @@ Change the default (letter) size to A4:
 
 **1.** Inside `docs/index.html`, replace every `-letter` with `-a4`.
 
-**2.** Inside `tailwind.config.js`, uncomment code block below `/* For A4 size */` and then comment code block below `/* For Letter size */`
+**2.** Inside `tailwind.config.js.old`, uncomment code block below `/* For A4 size */` and then comment code block
+below `/* For Letter size */`
 
 **3.** Inside `tailwind.css`, comment code below `/* For Letter size */` and uncomment code below `/* For A4 size */`
 
